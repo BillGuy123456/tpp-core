@@ -11,5 +11,5 @@ class Control():
     async def add_to_list(self, input):
         list += input
         
-    def run_refresh_shell(self):
-        subprocess.run(["sh", ""]):
+    def run_shell_script(self, input):
+        subprocess.run(["sh", input.filename + ".sh"]):
