@@ -106,7 +106,9 @@ public static class Emblems
         [97] = "Unbound",
         [98] = "Legends: Z-A",
         [99] = "Randomized Shield",
-        [100] = "Anniversary Emerald"
+        [100] = "Anniversary Emerald",
+        [106] = "Anniversary Sword",
+        [108] = "Super Gauntlet Legends: Z-A"
     };
 
     public static string FormatEmblem(int emblemNum)
