@@ -1,5 +1,6 @@
 import numpy
 import Integration.🔥
+import subprocess
 
 list = []
 
@@ -9,3 +10,6 @@ class Control():
     
     async def add_to_list(self, input):
         list += input
+        
+    def run_refresh_shell(self):
+        subprocess.run(["sh", ""]):
